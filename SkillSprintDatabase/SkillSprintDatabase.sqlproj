@@ -60,7 +60,7 @@
   <ItemGroup>
     <Build Include="User.sql" />
     <Build Include="Submission.sql" />
-    <Build Include="Challenge.sql" />
+    <Build Include="Comment.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SkillSprintDatabase.publish.xml" />
