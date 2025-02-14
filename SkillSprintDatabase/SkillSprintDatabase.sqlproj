@@ -66,12 +66,12 @@
     <Build Include="Stored Procedures\SP_User_Delete.sql" />
     <Build Include="Stored Procedures\SP_User_Get.sql" />
     <Build Include="Stored Procedures\SP_User_GetByID.sql" />
-    <Build Include="Stored Procedures\SP_User_Insert.sql" />
     <Build Include="Stored Procedures\SP_Challenge_Get.sql" />
     <Build Include="Stored Procedures\SP_Challenge_GetByID.sql" />
     <Build Include="Stored Procedures\SP_Challenge_Insert.sql" />
     <Build Include="Stored Procedures\SP_Challenge_Update.sql" />
     <Build Include="Stored Procedures\SP_Challenge_Delete.sql" />
+    <Build Include="Stored Procedures\SP_User_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SkillSprintDatabase.publish.xml" />
@@ -81,6 +81,7 @@
     <None Include="Scripts\EXEC_Challenge_Get.sql" />
     <None Include="Scripts\EXEC_Challenge_GetByID.sql" />
     <None Include="Scripts\BUILD_FIX.sql" />
+    <None Include="Scripts\EXEC_User_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Scripts\Comment.sql" />
