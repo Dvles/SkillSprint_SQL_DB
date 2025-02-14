@@ -2,9 +2,11 @@
     @Title NVARCHAR(255),
     @Description NVARCHAR(1000),
     @StartDate DATETIME,
-    @EndDate DATETIME
+    @EndDate DATETIME,
+    @Category NVARCHAR(50)  -- New parameter for the challenge category
 AS
 BEGIN
-    INSERT INTO [Challenge] ([Title], [Description], [StartDate], [EndDate])
-    VALUES (@Title, @Description, @StartDate, @EndDate);
-END
+
+    INSERT INTO [Challenge] ([Title], [Description], [StartDate], [EndDate], [Category])
+    VALUES (@Title, @Description, @StartDate, @EndDate, @Category);
+END;

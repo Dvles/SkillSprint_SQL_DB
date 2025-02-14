@@ -5,6 +5,7 @@ BEGIN
 			[Title], 
 			[Description], 
 			[StartDate],
-			[EndDate]
+			[EndDate],
+			[Category]
 	FROM [Challenge]
 END

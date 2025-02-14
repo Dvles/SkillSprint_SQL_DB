@@ -7,7 +7,8 @@ BEGIN
         [Title], 
         [Description], 
         [StartDate],
-        [EndDate]
+        [EndDate],
+        [Category]
     FROM [Challenge]
     WHERE [Challenge_Id] = @Challenge_Id;
 END
