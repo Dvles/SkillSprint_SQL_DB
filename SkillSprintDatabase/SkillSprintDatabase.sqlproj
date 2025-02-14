@@ -62,11 +62,16 @@
   <ItemGroup>
     <Build Include="Scripts\Submission.sql" />
     <Build Include="Scripts\User.sql" />
-    <Build Include="SP_User_Get.sql" />
-    <Build Include="SP_User_GetByID.sql" />
-    <Build Include="SP_User_Insert.sql" />
     <Build Include="Stored Procedures\SP_User_Update.sql" />
     <Build Include="Stored Procedures\SP_User_Delete.sql" />
+    <Build Include="Stored Procedures\SP_User_Get.sql" />
+    <Build Include="Stored Procedures\SP_User_GetByID.sql" />
+    <Build Include="Stored Procedures\SP_User_Insert.sql" />
+    <Build Include="Stored Procedures\SP_Challenge_Get.sql" />
+    <Build Include="Stored Procedures\SP_Challenge_GetByID.sql" />
+    <Build Include="Stored Procedures\SP_Challenge_Insert.sql" />
+    <Build Include="Stored Procedures\SP_Challenge_Update.sql" />
+    <Build Include="Stored Procedures\SP_Challenge_Delete.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SkillSprintDatabase.publish.xml" />
