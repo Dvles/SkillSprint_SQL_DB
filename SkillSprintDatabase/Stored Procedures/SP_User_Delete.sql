@@ -4,6 +4,6 @@ AS
 BEGIN
 
 	UPDATE [User]
-		SET [IsDisabled] = 1,
+		SET [IsDisabled] = 1
 		WHERE [User_Id] = @user_id;
 END
