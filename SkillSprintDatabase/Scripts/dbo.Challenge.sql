@@ -5,6 +5,7 @@
     [StartDate]    DATETIME         NOT NULL,
     [EndDate]      DATETIME         NOT NULL,
     [CATEGORY]     NVARCHAR (50)    NOT NULL,
+	CONSTRAINT CK_Category CHECK (Category IN ('Design', 'Music', 'Poetry')),
     PRIMARY KEY CLUSTERED ([Challenge_Id] ASC)
 );
 

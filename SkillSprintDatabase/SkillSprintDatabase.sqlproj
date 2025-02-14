@@ -80,6 +80,7 @@
     <None Include="Scripts\EXEC_Challenge_Insert.sql" />
     <None Include="Scripts\EXEC_Challenge_Get.sql" />
     <None Include="Scripts\EXEC_Challenge_GetByID.sql" />
+    <None Include="Scripts\BUILD_FIX.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Scripts\Comment.sql" />
