@@ -75,6 +75,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="SkillSprintDatabase.publish.xml" />
+    <None Include="Scripts\EXEC_Challenge_Delete.sql" />
+    <None Include="Scripts\EXEC_Challenge_Update.sql" />
+    <None Include="Scripts\EXEC_Challenge_Insert.sql" />
+    <None Include="Scripts\EXEC_Challenge_Get.sql" />
+    <None Include="Scripts\EXEC_Challenge_GetByID.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Scripts\Comment.sql" />
