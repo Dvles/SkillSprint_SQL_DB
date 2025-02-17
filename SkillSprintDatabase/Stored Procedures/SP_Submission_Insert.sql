@@ -5,15 +5,10 @@
     @Challenge_Id UNIQUEIDENTIFIER  
 AS
 BEGIN
-	INSERT INTO    [Submission] ([Url],
-    [Description],
-    [User_Id], 
-    [Challenge_Id])
-    OUTPUT [inserted].[Submission_Id]
+    INSERT INTO [Submission] 
+        ([Submission_Id], [Url], [Description], [User_Id], [Challenge_Id])
+    OUTPUT inserted.[Submission_Id]
     VALUES
-       ( NEWID(), @Url,
-    @Description ,
-    @User_Id  ,  
-    @Challenge_Id);
+        (NEWID(), @Url, @Description, @User_Id, @Challenge_Id);
 
 END;

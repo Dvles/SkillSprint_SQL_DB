@@ -77,6 +77,7 @@
     <Build Include="Stored Procedures\SP_Submission_GetByID.sql" />
     <Build Include="Stored Procedures\SP_Submission_Update.sql" />
     <Build Include="Stored Procedures\SP_Submission_Delete.sql" />
+    <Build Include="Stored Procedures\SP_User_Insert_2.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SkillSprintDatabase.publish.xml" />
